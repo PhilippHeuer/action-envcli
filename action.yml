@@ -1,0 +1,12 @@
+name: 'EnvCLI'
+description: 'Get sources from a GitHub repository.'
+author: 'Philipp Heuer <git@philippheuer.me>'
+branding:
+  icon: 'database'  
+  color: 'purple'
+inputs: 
+  repository:
+    description: 'Repository name'
+runs:
+  using: 'docker'
+  image: 'docker.io/envcli/envcli@latest'
